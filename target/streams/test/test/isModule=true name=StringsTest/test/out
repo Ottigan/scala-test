@@ -1,0 +1,47 @@
+[0m[[0m[0minfo[0m] [0m[0m[32mStringsTest[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m- pluralise one comment *** FAILED ***[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  received not-implemented != expected 1 new comment (StringsTest.scala:5)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m    minitest.api.Asserts.assertEquals(Asserts.scala:71)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m    minitest.api.Asserts.assertEquals$(Asserts.scala:65)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m    StringsTest$.assertEquals(StringsTest.scala:3)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m    StringsTest$.$anonfun$new$1(StringsTest.scala:5)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m    minitest.SimpleTestSuite.$anonfun$test$1(SimpleTestSuite.scala:27)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m    minitest.api.TestSpec$.$anonfun$sync$2(TestSpec.scala:51)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m    scala.concurrent.BlockContext$DefaultBlockContext$.blockOn(BlockContext.scala:62)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m    scala.concurrent.package$.blocking(package.scala:124)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m    minitest.api.TestSpec$.$anonfun$sync$1(TestSpec.scala:51)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m    minitest.api.TestSpec.apply(TestSpec.scala:27)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m    minitest.api.Properties.$anonfun$iterator$2(Properties.scala:38)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m    minitest.api.TestSpec.apply(TestSpec.scala:27)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m    minitest.runner.Task.loop$1(Task.scala:56)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m    minitest.runner.Task.$anonfun$execute$3(Task.scala:71)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m    scala.Option.fold(Option.scala:263)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m    minitest.runner.Task.execute(Task.scala:68)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m    minitest.runner.Task.execute(Task.scala:81)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m    sbt.TestRunner.runTest$1(TestFramework.scala:139)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m    sbt.TestRunner.run(TestFramework.scala:154)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m    sbt.TestFramework$$anon$3$$anonfun$$lessinit$greater$1.$anonfun$apply$1(TestFramework.scala:317)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m    ...[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m- pluralise two comments *** FAILED ***[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  received not-implemented != expected 2 new comments (StringsTest.scala:8)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m    minitest.api.Asserts.assertEquals(Asserts.scala:71)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m    minitest.api.Asserts.assertEquals$(Asserts.scala:65)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m    StringsTest$.assertEquals(StringsTest.scala:3)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m    StringsTest$.$anonfun$new$2(StringsTest.scala:8)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m    minitest.SimpleTestSuite.$anonfun$test$1(SimpleTestSuite.scala:27)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m    minitest.api.TestSpec$.$anonfun$sync$2(TestSpec.scala:51)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m    scala.concurrent.impl.ExecutionContextImpl$DefaultThreadFactory$$anon$1$$anon$2.block(ExecutionContextImpl.scala:59)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m    java.util.concurrent.ForkJoinPool.managedBlock(ForkJoinPool.java:3313)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m    scala.concurrent.impl.ExecutionContextImpl$DefaultThreadFactory$$anon$1.blockOn(ExecutionContextImpl.scala:70)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m    scala.concurrent.BatchingExecutor$AsyncBatch.blockOn(BatchingExecutor.scala:202)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m    scala.concurrent.package$.blocking(package.scala:124)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m    minitest.api.TestSpec$.$anonfun$sync$1(TestSpec.scala:51)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m    minitest.api.TestSpec.apply(TestSpec.scala:27)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m    minitest.api.Properties.$anonfun$iterator$2(Properties.scala:38)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m    minitest.api.TestSpec.apply(TestSpec.scala:27)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m    minitest.runner.Task.loop$1(Task.scala:56)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m    minitest.runner.Task.$anonfun$execute$1(Task.scala:63)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m    scala.concurrent.impl.Promise$Transformation.run(Promise.scala:433)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m    scala.concurrent.BatchingExecutor$AbstractBatch.runN(BatchingExecutor.scala:134)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m    scala.concurrent.BatchingExecutor$AsyncBatch.apply(BatchingExecutor.scala:163)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m    ...[0m[0m

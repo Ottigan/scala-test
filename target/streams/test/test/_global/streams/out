@@ -1,0 +1,6 @@
+[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(StringsTest, minitest.runner.Framework$ModuleFingerprint$@354709de, false, [SuiteSelector])[0m
+[0m[[0m[0mdebug[0m] [0m[0mSummary for minitest not available.[0m
+[0m[[0m[31merror[0m] [0m[0mFailed: Total 2, Failed 2, Errors 0, Passed 0[0m
+[0m[[0m[31merror[0m] [0m[0mFailed tests:[0m
+[0m[[0m[31merror[0m] [0m[0m	StringsTest[0m
+[0m[[0m[31merror[0m] [0m[0m(Test / [31mtest[0m) sbt.TestsFailedException: Tests unsuccessful[0m
