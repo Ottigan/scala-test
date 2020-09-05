@@ -1,0 +1,4 @@
+[debug] [repl-yell-test] Classpath dependencies List()
+[debug] [repl-yell-test] Dependencies from configurations List(repl-yell)
+[debug] Bloop wrote the configuration of project 'repl-yell-test' to 'C:\Users\Ottigan\Desktop\Scala\repl-yell\.bloop\repl-yell-test.json'
+[success] Generated .bloop\repl-yell-test.json
