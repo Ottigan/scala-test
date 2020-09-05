@@ -1,2 +1,7 @@
 test
 :q
+Predicates.forBoth(2, 4, Predicates.isEven)
+console
+ testOnly PredicatesTest
+quit
+exit

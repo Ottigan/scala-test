@@ -1,82 +1,13 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<testsuite hostname="Ottigan" name="StringsTest" tests="2" errors="0" failures="2" skipped="0" time="0.007" timestamp="2020-09-04T23:09:45">
+<testsuite hostname="Ottigan" name="StringsTest" tests="2" errors="0" failures="0" skipped="0" time="0.0" timestamp="2020-09-05T14:19:22">
                      <properties>
       <property name="jline.esc.timeout" value="0"/><property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/><property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_211\jre\bin"/><property name="java.vm.version" value="25.211-b12"/><property name="user.country.format" value="150"/><property name="java.vm.vendor" value="Oracle Corporation"/><property name="java.vendor.url" value="http://java.oracle.com/"/><property name="path.separator" value=";"/><property name="jna.loaded" value="true"/><property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/><property name="file.encoding.pkg" value="sun.io"/><property name="user.country" value="US"/><property name="user.script" value=""/><property name="sun.java.launcher" value="SUN_STANDARD"/><property name="sun.os.patch.level" value=""/><property name="jna.nosys" value="true"/><property name="java.vm.specification.name" value="Java Virtual Machine Specification"/><property name="user.dir" value="C:\Users\Ottigan\Desktop\Scala\repl-yell"/><property name="java.runtime.version" value="1.8.0_211-b12"/><property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/><property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.8.0_211\jre\lib\endorsed"/><property name="os.arch" value="amd64"/><property name="java.io.tmpdir" value="C:\Users\Ottigan\AppData\Local\Temp\"/><property name="line.separator" value="
-"/><property name="java.vm.specification.vendor" value="Oracle Corporation"/><property name="log4j.ignoreTCL" value="true"/><property name="user.variant" value=""/><property name="os.name" value="Windows 10"/><property name="sun.jnu.encoding" value="Cp1252"/><property name="jnidispatch.path" value="C:\Users\Ottigan\AppData\Local\Temp\jna-529686874\jna2329381930094459666.dll"/><property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_211\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\Java\jdk1.8.0_211\bin;C:\Program Files\PowerShell\7;C:\Python38\Scripts\;C:\Python38\;C:\Program Files (x86)\Razer Chroma SDK\bin;C:\Program Files\Razer Chroma SDK\bin;C:\Program Files (x86)\Razer\ChromaBroadcast\bin;C:\Program Files\Razer\ChromaBroadcast\bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files (x86)\Oberthur Technologies\AWP\Dlls;C:\Program Files\Oberthur Technologies\AWP\Dlls;C:\WINDOWS\system32\config\systemprofile\AppData\Local\Microsoft\WindowsApps;C:\ProgramData\chocolatey\bin;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\xampp\php;C:\ProgramData\ComposerSetup\bin;C:\Program Files\nodejs\;C:\Program Files\PowerShell\7\;C:\Program Files\Git\cmd;C:\Program Files\dotnet\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Java\jdk1.8.0_211\bin;C:\Program Files (x86)\sbt\bin;C:\Users\Ottigan\AppData\Local\Microsoft\WindowsApps;C:\Users\Ottigan\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\Ottigan\AppData\Local\Google\Cloud SDK\google-cloud-sdk\bin;C:\Users\Ottigan\.dotnet\tools;C:\Users\Ottigan\AppData\Roaming\Composer\vendor\bin;C:\Users\Ottigan\AppData\Roaming\npm;C:\Users\Ottigan\AppData\Local\Microsoft\WindowsApps;."/><property name="java.specification.name" value="Java Platform API Specification"/><property name="java.class.version" value="52.0"/><property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/><property name="os.version" value="10.0"/><property name="swoval.tmpdir" value="C:\Users\Ottigan\.sbt\1.0"/><property name="user.home" value="C:\Users\Ottigan"/><property name="user.timezone" value="Europe/Helsinki"/><property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/><property name="file.encoding" value="UTF-8"/><property name="java.specification.version" value="1.8"/><property name="java.class.path" value="C:\Program Files (x86)\sbt\\bin\sbt-launch.jar"/><property name="user.name" value="Ottigan"/><property name="jline.shutdownhook" value="false"/><property name="java.vm.specification.version" value="1.8"/><property name="sun.java.command" value="xsbt.boot.Boot"/><property name="java.home" value="C:\Program Files\Java\jdk1.8.0_211\jre"/><property name="sun.arch.data.model" value="64"/><property name="user.language" value="en"/><property name="java.specification.vendor" value="Oracle Corporation"/><property name="awt.toolkit" value="sun.awt.windows.WToolkit"/><property name="java.vm.info" value="mixed mode"/><property name="java.version" value="1.8.0_211"/><property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.8.0_211\jre\lib\ext;C:\WINDOWS\Sun\Java\lib\ext"/><property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_211\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_211\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_211\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_211\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_211\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_211\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_211\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_211\jre\classes"/><property name="java.vendor" value="Oracle Corporation"/><property name="sun.stderr.encoding" value="cp437"/><property name="file.separator" value="\"/><property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/><property name="sun.io.unicode.encoding" value="UnicodeLittle"/><property name="sun.cpu.endian" value="little"/><property name="sun.stdout.encoding" value="cp437"/><property name="sun.desktop" value="windows"/><property name="sun.cpu.isalist" value="amd64"/>
+"/><property name="java.vm.specification.vendor" value="Oracle Corporation"/><property name="log4j.ignoreTCL" value="true"/><property name="user.variant" value=""/><property name="os.name" value="Windows 10"/><property name="sun.jnu.encoding" value="Cp1252"/><property name="jnidispatch.path" value="C:\Users\Ottigan\AppData\Local\Temp\jna-529686874\jna7603679712748997672.dll"/><property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_211\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\Java\jdk1.8.0_211\bin;C:\Python38\Scripts\;C:\Python38\;C:\Program Files (x86)\Razer Chroma SDK\bin;C:\Program Files\Razer Chroma SDK\bin;C:\Program Files (x86)\Razer\ChromaBroadcast\bin;C:\Program Files\Razer\ChromaBroadcast\bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files (x86)\Oberthur Technologies\AWP\Dlls;C:\Program Files\Oberthur Technologies\AWP\Dlls;C:\WINDOWS\system32\config\systemprofile\AppData\Local\Microsoft\WindowsApps;C:\ProgramData\chocolatey\bin;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\xampp\php;C:\ProgramData\ComposerSetup\bin;C:\Program Files\nodejs\;C:\Program Files\PowerShell\7\;C:\Program Files\Git\cmd;C:\Program Files\dotnet\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Java\jdk1.8.0_211\bin;C:\Program Files (x86)\sbt\bin;C:\Users\Ottigan\AppData\Local\Microsoft\WindowsApps;C:\Users\Ottigan\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\Ottigan\AppData\Local\Google\Cloud SDK\google-cloud-sdk\bin;C:\Users\Ottigan\.dotnet\tools;C:\Users\Ottigan\AppData\Roaming\Composer\vendor\bin;C:\Users\Ottigan\AppData\Roaming\npm;C:\Users\Ottigan\AppData\Local\Microsoft\WindowsApps;."/><property name="java.specification.name" value="Java Platform API Specification"/><property name="java.class.version" value="52.0"/><property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/><property name="os.version" value="10.0"/><property name="swoval.tmpdir" value="C:\Users\Ottigan\.sbt\1.0"/><property name="user.home" value="C:\Users\Ottigan"/><property name="user.timezone" value="Europe/Helsinki"/><property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/><property name="file.encoding" value="UTF-8"/><property name="java.specification.version" value="1.8"/><property name="java.class.path" value="C:\Program Files (x86)\sbt\\bin\sbt-launch.jar"/><property name="user.name" value="Ottigan"/><property name="jline.shutdownhook" value="false"/><property name="java.vm.specification.version" value="1.8"/><property name="sun.java.command" value="xsbt.boot.Boot testOnly PredicatesTest"/><property name="java.home" value="C:\Program Files\Java\jdk1.8.0_211\jre"/><property name="sun.arch.data.model" value="64"/><property name="user.language" value="en"/><property name="java.specification.vendor" value="Oracle Corporation"/><property name="awt.toolkit" value="sun.awt.windows.WToolkit"/><property name="java.vm.info" value="mixed mode"/><property name="java.version" value="1.8.0_211"/><property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.8.0_211\jre\lib\ext;C:\WINDOWS\Sun\Java\lib\ext"/><property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_211\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_211\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_211\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_211\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_211\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_211\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_211\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_211\jre\classes"/><property name="java.vendor" value="Oracle Corporation"/><property name="sun.stderr.encoding" value="cp437"/><property name="file.separator" value="\"/><property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/><property name="sun.io.unicode.encoding" value="UnicodeLittle"/><property name="sun.cpu.endian" value="little"/><property name="sun.stdout.encoding" value="cp437"/><property name="sun.desktop" value="windows"/><property name="sun.cpu.isalist" value="amd64"/>
     </properties>
-                     <testcase classname="StringsTest" name="(It is not a test it is a sbt.testing.SuiteSelector)" time="0.007">
-                                                 <failure message="received not-implemented != expected 1 new comment" type="minitest.api.AssertionException">minitest.api.AssertionException: received not-implemented != expected 1 new comment
-	at minitest.api.Asserts.assertEquals(Asserts.scala:71)
-	at minitest.api.Asserts.assertEquals$(Asserts.scala:65)
-	at StringsTest$.assertEquals(StringsTest.scala:3)
-	at StringsTest$.$anonfun$new$1(StringsTest.scala:5)
-	at minitest.SimpleTestSuite.$anonfun$test$1(SimpleTestSuite.scala:27)
-	at minitest.api.TestSpec$.$anonfun$sync$2(TestSpec.scala:51)
-	at scala.concurrent.BlockContext$DefaultBlockContext$.blockOn(BlockContext.scala:62)
-	at scala.concurrent.package$.blocking(package.scala:124)
-	at minitest.api.TestSpec$.$anonfun$sync$1(TestSpec.scala:51)
-	at minitest.api.TestSpec.apply(TestSpec.scala:27)
-	at minitest.api.Properties.$anonfun$iterator$2(Properties.scala:38)
-	at minitest.api.TestSpec.apply(TestSpec.scala:27)
-	at minitest.runner.Task.loop$1(Task.scala:56)
-	at minitest.runner.Task.$anonfun$execute$3(Task.scala:71)
-	at scala.Option.fold(Option.scala:263)
-	at minitest.runner.Task.execute(Task.scala:68)
-	at minitest.runner.Task.execute(Task.scala:81)
-	at sbt.TestRunner.runTest$1(TestFramework.scala:139)
-	at sbt.TestRunner.run(TestFramework.scala:154)
-	at sbt.TestFramework$$anon$3$$anonfun$$lessinit$greater$1.$anonfun$apply$1(TestFramework.scala:317)
-	at sbt.TestFramework$.sbt$TestFramework$$withContextLoader(TestFramework.scala:277)
-	at sbt.TestFramework$$anon$3$$anonfun$$lessinit$greater$1.apply(TestFramework.scala:317)
-	at sbt.TestFramework$$anon$3$$anonfun$$lessinit$greater$1.apply(TestFramework.scala:317)
-	at sbt.TestFunction.apply(TestFramework.scala:329)
-	at sbt.Tests$.$anonfun$toTask$1(Tests.scala:311)
-	at sbt.std.Transform$$anon$3.$anonfun$apply$2(Transform.scala:46)
-	at sbt.std.Transform$$anon$4.work(Transform.scala:67)
-	at sbt.Execute.$anonfun$submit$2(Execute.scala:281)
-	at sbt.internal.util.ErrorHandling$.wideConvert(ErrorHandling.scala:19)
-	at sbt.Execute.work(Execute.scala:290)
-	at sbt.Execute.$anonfun$submit$1(Execute.scala:281)
-	at sbt.ConcurrentRestrictions$$anon$4.$anonfun$submitValid$1(ConcurrentRestrictions.scala:178)
-	at sbt.CompletionService$$anon$2.call(CompletionService.scala:37)
-	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
-	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
-	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
-	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
-	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
-	at java.lang.Thread.run(Thread.java:748)
-</failure>
+                     <testcase classname="StringsTest" name="(It is not a test it is a sbt.testing.SuiteSelector)" time="0.0">
+                                                 
                                                </testcase><testcase classname="StringsTest" name="(It is not a test it is a sbt.testing.SuiteSelector)" time="0.0">
-                                                 <failure message="received not-implemented != expected 2 new comments" type="minitest.api.AssertionException">minitest.api.AssertionException: received not-implemented != expected 2 new comments
-	at minitest.api.Asserts.assertEquals(Asserts.scala:71)
-	at minitest.api.Asserts.assertEquals$(Asserts.scala:65)
-	at StringsTest$.assertEquals(StringsTest.scala:3)
-	at StringsTest$.$anonfun$new$2(StringsTest.scala:8)
-	at minitest.SimpleTestSuite.$anonfun$test$1(SimpleTestSuite.scala:27)
-	at minitest.api.TestSpec$.$anonfun$sync$2(TestSpec.scala:51)
-	at scala.concurrent.impl.ExecutionContextImpl$DefaultThreadFactory$$anon$1$$anon$2.block(ExecutionContextImpl.scala:59)
-	at java.util.concurrent.ForkJoinPool.managedBlock(ForkJoinPool.java:3313)
-	at scala.concurrent.impl.ExecutionContextImpl$DefaultThreadFactory$$anon$1.blockOn(ExecutionContextImpl.scala:70)
-	at scala.concurrent.BatchingExecutor$AsyncBatch.blockOn(BatchingExecutor.scala:202)
-	at scala.concurrent.package$.blocking(package.scala:124)
-	at minitest.api.TestSpec$.$anonfun$sync$1(TestSpec.scala:51)
-	at minitest.api.TestSpec.apply(TestSpec.scala:27)
-	at minitest.api.Properties.$anonfun$iterator$2(Properties.scala:38)
-	at minitest.api.TestSpec.apply(TestSpec.scala:27)
-	at minitest.runner.Task.loop$1(Task.scala:56)
-	at minitest.runner.Task.$anonfun$execute$1(Task.scala:63)
-	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:433)
-	at scala.concurrent.BatchingExecutor$AbstractBatch.runN(BatchingExecutor.scala:134)
-	at scala.concurrent.BatchingExecutor$AsyncBatch.apply(BatchingExecutor.scala:163)
-	at scala.concurrent.BatchingExecutor$AsyncBatch.apply(BatchingExecutor.scala:146)
-	at scala.concurrent.BlockContext$.usingBlockContext(BlockContext.scala:107)
-	at scala.concurrent.BatchingExecutor$AsyncBatch.run(BatchingExecutor.scala:154)
-	at java.util.concurrent.ForkJoinTask$RunnableExecuteAction.exec(ForkJoinTask.java:1402)
-	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:289)
-	at java.util.concurrent.ForkJoinPool$WorkQueue.runTask(ForkJoinPool.java:1056)
-	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1692)
-	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:157)
-</failure>
+                                                 
                                                </testcase>
                      <system-out><![CDATA[]]></system-out>
                      <system-err><![CDATA[]]></system-err>
