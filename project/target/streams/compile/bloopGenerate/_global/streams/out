@@ -1,4 +1,4 @@
-[debug] [repl-yell-build] Classpath dependencies List()
-[debug] [repl-yell-build] Dependencies from configurations List()
-[debug] Bloop wrote the configuration of project 'repl-yell-build' to 'C:\Users\Ottigan\Desktop\Scala\repl-yell\project\.bloop\repl-yell-build.json'
-[success] Generated .bloop\repl-yell-build.json
+[0m[[0m[0mdebug[0m] [0m[0m[repl-yell-build] Classpath dependencies List()[0m
+[0m[[0m[0mdebug[0m] [0m[0m[repl-yell-build] Dependencies from configurations List()[0m
+[0m[[0m[0mdebug[0m] [0m[0mBloop wrote the configuration of project 'repl-yell-build' to 'C:\Users\Ottigan\Desktop\Scala\repl-yell\project\.bloop\repl-yell-build.json'[0m
+[0m[[0m[32msuccess[0m] [0m[0mGenerated .bloop\repl-yell-build.json[0m

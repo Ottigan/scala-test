@@ -5,3 +5,8 @@ console
  testOnly PredicatesTest
 quit
 exit
+onlyTests PredicatesTest
+onlyTests PredicatesTest.scala
+testOnly PredicatesTest
+quit
+exit
