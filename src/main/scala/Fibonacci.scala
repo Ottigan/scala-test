@@ -31,9 +31,9 @@ object Fibonacci {
   def fib(n: Long): Long = {
     @scala.annotation.tailrec
     def iter(previous: Long, current: Long, n: Long): Long =
-      if (n <= 0) current
+      if (n == 0) current
       else iter(current, previous + current, n - 1)
 
-    if (n > 1) iter(1, 1, n - 2) else n
+    if (n > 2) iter(1, 1, n - 2) else n
   }
 }
