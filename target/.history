@@ -10,3 +10,5 @@ onlyTests PredicatesTest.scala
 testOnly PredicatesTest
 quit
 exit
+console
+exit
